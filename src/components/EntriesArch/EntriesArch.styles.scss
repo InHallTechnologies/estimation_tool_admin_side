@@ -1,0 +1,38 @@
+.entries-arch-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;
+    cursor: pointer;
+    transition-duration: 0.5s;
+    &:hover {
+        box-shadow: 1px 2px 2px 1px #d4d4d4;
+    }
+    .entries-arch-name {
+        font-weight: 500;
+        color: #31373A;
+        font-size: 1.3rem;
+    }
+    .entries-arch-description {
+        color: #7A8990;
+        height: 70px;
+        margin-top: 5px;
+        font-size: 1.1rem;
+    }
+    .entries-arch-details-stamps-list {
+        display: flex;
+        padding: 10px 0px;
+        .entries-arch-details-stamps {
+            display: flex;
+            margin-right: 20px;
+            align-items: center;
+            .entries-arch-details-stamps-value {
+                margin-left: 5px;
+                font-size: 0.8rem;
+            }
+        }
+    }
+    .entries-arch-timestamp {
+        font-size: 0.65rem;
+        color: #7A8990;
+    }
+}

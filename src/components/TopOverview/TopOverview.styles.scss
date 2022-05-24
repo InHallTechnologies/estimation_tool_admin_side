@@ -1,0 +1,27 @@
+.estimation-details-top-overview-container {
+    
+    .title-area {
+        display: flex;
+        .box-area {
+            width: 10px;
+            height: 25px;
+            margin-right: 10px;
+            border-radius: 5px;
+        }
+        .title {
+            font-weight: 500;
+        }
+    }
+    .estimation-details-objects {
+        display: flex;
+        .objects-container {
+            margin-right: 10px;
+            .object-value {
+
+            }
+            .object-title {
+                color: #756F86;
+            }
+        }
+    }
+}

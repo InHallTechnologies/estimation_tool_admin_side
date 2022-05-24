@@ -1,0 +1,20 @@
+.recharts-legend-wrapper {
+    margin-top: 200px;
+}
+
+.graph-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(500px, 1fr));
+    margin-top: 55px;
+    grid-gap: 25px;
+}
+
+.graph-element {
+    background-color: #F1F6F7;
+    padding: 10px;
+    
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    border-radius: 5px;
+}

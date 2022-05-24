@@ -1,0 +1,42 @@
+.home-container {
+    display: flex;
+    flex-direction: row;
+    height: 100vh;
+
+    .sidebar-container {
+        width: 10%;
+        background-color: #F1F6F7;
+        display: flex;
+        flex-direction: column;
+
+        .icon {
+            width: 50px;
+            align-self: center;
+            margin-bottom: 50px;
+            margin-top: 30px;
+        }
+
+        .menu-item-container {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            margin-top: 30px;
+            padding: 10px 0;
+            cursor: pointer;
+
+            .menu-item-icon {
+                width: 20px;
+            }
+            .menu-item-label {
+                font-weight: 600;
+                font-size: 0.9rem;
+                color: #444;
+            }
+        }
+    }
+
+    .content-container {
+        width: 90%;
+        overflow-y: scroll;
+    }
+}

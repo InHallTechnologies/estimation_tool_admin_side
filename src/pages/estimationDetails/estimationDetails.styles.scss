@@ -1,0 +1,61 @@
+.estimation-details-container {
+    min-height: 100vh;
+    background-color: #f1f6f7;
+    display: flex;
+    flex-direction: column;
+
+    .logo {
+        width: 180px;
+        margin-top: 30px;
+    }
+    .estimation-details-content {
+        padding: 50px 40px;
+        .project-name {
+            font-weight: 500;
+            font-size: 1.7rem;
+        }
+        .project-details {
+            font-size: 1.2rem;
+            margin-top: 5px;
+        }
+        .top-overview-area {
+            display: grid;
+            grid-gap: 40px;
+            grid-template-columns: repeat(auto-fit, minmax(390px, 1fr));
+            margin-top: 50px;
+        }
+    }
+    .effort-breakdown-container {
+        background-color: white;
+        padding: 50px 40px;
+        margin-top: 20px;
+        .efforts-breakdown-title {
+            color: #444;
+            font-weight: 600;
+            font-size: 1.2rem;
+        }
+        .efforts-breakdown-list {
+            margin-top: 10px;
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            grid-gap: 20px;
+        }
+    }
+
+    .result-container {
+        background-color: white;
+        padding: 20px 40px;
+        flex: 1;
+        .result-title {
+            color: #FE5C1C;
+            font-weight: 700;
+            font-size: 1.5rem;
+        }
+        .result-list {
+            margin-top: 10px;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            grid-gap: 20px;
+        }
+    }
+}

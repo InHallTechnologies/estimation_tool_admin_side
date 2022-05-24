@@ -1,0 +1,102 @@
+.operators-page-container {
+    display: flex;
+    flex-direction: column;
+    padding: 25px;
+    width: 100%;
+
+    .search-bar-container {
+        background-color: #F1F6F7;
+        border-radius: 5px;
+        display: flex;
+        flex-direction: row;
+        padding: 10px;
+        width: 30%;
+
+        .search-icon {
+            width: 20px;
+        }
+
+        .search-bar {
+            outline: none;
+            background-color: #F1F6F7;
+            border: none;
+            flex: 1;
+            margin-left: 10px;
+            margin-right: 10px;
+            color: #444;
+            font-weight: 500px;
+        }
+    }
+
+    .tab-container {
+        display: flex;
+        flex-direction: row;
+        margin: 30px 0;
+
+        .selected-item {
+            color: #FE5C1C;
+            font-weight: 600;
+            font-size: 1.1rem;
+            text-decoration: underline;
+            background-color: white;
+            margin-right: 30px;
+            cursor: pointer;
+        }
+
+        .unselected-item {
+            color: #ccc;
+            font-weight: 600;
+            font-size: 1rem;
+            cursor: pointer;
+            margin-right: 30px;
+        }
+    }
+
+    .table-container {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+
+        .header-container {
+            display: flex;
+            flex-direction: row;
+            background-color: #F1F6F7;
+            border-radius: 5px;
+            justify-content: space-evenly;
+            align-items: center;
+            padding: 15px;
+
+            .header-item {
+                font-weight: 600;
+                color: #FE5C1C;
+                font-size: 0.9rem;
+                flex: 0.2;
+            }
+        }
+
+        .body-container {
+            display: flex;
+            flex-direction: row;
+            justify-content: space-between;
+            align-items: center;
+            padding: 15px;
+
+            .body-item {
+                font-weight: 500;
+                color: #444;
+                font-size: 0.9rem;
+                flex: 0.2;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+
+                .inner-div {
+                    display: flex;
+                    flex-direction: row;
+                    align-items: center;
+                    justify-content: center;
+                }
+            }
+        }
+    }
+}
